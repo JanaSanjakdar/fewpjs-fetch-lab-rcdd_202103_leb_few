@@ -6,7 +6,7 @@ fetch('https://anapioficeandfire.com/api/books')
 
 }
 
-function renderBooks(books) {
+function renderBooks(json) {
   const main = document.querySelector('main');
   books.forEach(book => {
     const h2 = document.createElement('h2');
